@@ -1,0 +1,45 @@
+*{
+
+}
+
+
+#curriculo{
+  background-color:#FFDEAD;
+  width: 1000px;
+  margin: 0px auto;
+  padding: 20px;
+}
+/*
+.titulo{
+  background-color: #FFD39B;
+} */
+
+.Nome{
+  float: left;
+font-family: 'Indie Flower', cursive;
+font-size: 20px;
+}
+
+.Nome h1{
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.Nome h2{
+font-size: 65px;
+margin-top: 0;
+margin-bottom: 2px;
+}
+
+.lista{
+  float:right;
+  font-size: 20px;
+
+}
+
+.limparFloat{
+  clear: both;
+}
+.objetivo{
+  margin-top: 0px;
+}
