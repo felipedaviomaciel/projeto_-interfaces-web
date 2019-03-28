@@ -8,38 +8,92 @@
   width: 1000px;
   margin: 0px auto;
   padding: 20px;
+  border-style: solid ;
 }
-/*
-.titulo{
-  background-color: #FFD39B;
-} */
 
+/* --------------------------------------------------------------------------------------------------------- */
 .Nome{
   float: left;
-font-family: 'Indie Flower', cursive;
+/* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Shadows Into Light', cursive; */
+font-family: 'Amatic SC', cursive;
 font-size: 20px;
 }
 
 .Nome h1{
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 0;
   margin-top: 0;
 }
 .Nome h2{
-font-size: 65px;
+font-size: 90px;
 margin-top: 0;
-margin-bottom: 2px;
+margin-bottom: 0px;
 }
+
 
 .lista{
   float:right;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+
 
 }
 
 .limparFloat{
   clear: both;
 }
+
+/* --------------------------------------------------------------------------------------------------------- */
 .objetivo{
   margin-top: 0px;
+  background-color: #FFEFD5;
+
+
+}
+.objetivo h1{
+  font-family: 'Amatic SC', cursive;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.educacao{
+  background-color: #FFEFD5;
+  margin-top: 0px;
+
+}
+.educacao h1{
+font-size: 45px;
+font-family: 'Amatic SC', cursive;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.experiencia{
+  background-color: #FFEFD5;
+}
+.experiencia h1{
+font-size: 45px;
+font-family: 'Amatic SC', cursive;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.habilidades{
+  background-color: #FFEFD5;
+}
+.habilidades h1{
+font-size: 45px;
+font-family: 'Amatic SC', cursive;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.atividades{
+  background-color: #FFEFD5;
+}
+.atividades h1{
+font-size: 45px;
+font-family: 'Amatic SC', cursive;
 }
