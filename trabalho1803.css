@@ -14,16 +14,14 @@
 /* --------------------------------------------------------------------------------------------------------- */
 .Nome{
   float: left;
-/* font-family: 'Indie Flower', cursive; */
-/* font-family: 'Shadows Into Light', cursive; */
-font-family: 'Amatic SC', cursive;
-font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
 }
 
 .Nome h1{
-  font-size: 60px;
-  margin-bottom: 0;
+  font-size: 60px
   margin-top: 0;
+  margin-bottom: 0
 }
 .Nome h2{
 font-size: 90px;
@@ -35,15 +33,14 @@ margin-bottom: 0px;
 .lista{
   float:right;
   font-size: 30px;
-  font-family: 'Amatic SC', cursive;
-
-
+  font-family: 'Amatic SC', cursive
 }
 
 .lista ul {
   list-style-type: none;
   text-align: right;
 }
+
 .limparFloat{
   clear: both;
 }
@@ -53,17 +50,17 @@ margin-bottom: 0px;
   margin-top: 2px;
   background-color: #FFEFD5;
   padding: 13px;
-  margin-bottom: 7px;
-
+  margin-bottom: 7px
 }
 .objetivo h1{
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 35px;
+  font-size: 40px;
   font-family: 'Amatic SC', cursive;
 }
 
 .objetivo p{
+  font-size: 18px;
   margin-top: 4px;
   margin-bottom: 0px;
 }
@@ -72,7 +69,8 @@ margin-bottom: 0px;
 
 .educacao{
   background-color: #FFEFD5;
-  margin-top: 1px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   padding: 13px;
 
 }
@@ -83,40 +81,100 @@ margin-bottom: 0px;
 .educacao h1{
   margin-top: 0px;
   margin-bottom: 5px;
-font-size: 35px;
+font-size: 40px;
 font-family: 'Amatic SC', cursive;
 }
 .educacao li{
   margin-top: 2px;
 }
 
+.educacao u{
+    font-size: 19px;
+}
+
+.educacao i{
+  font-size: 18px;
+}
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 .experiencia{
   background-color: #FFEFD5;
+  padding: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 
 }
+.experiencia p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .experiencia h1{
-font-size: 35px;
-font-family: 'Amatic SC', cursive;
+  margin-top: 3px;
+  margin-bottom:5px;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.experiencia u{
+  font-size: 19px;
+}
+.experiencia i{
+  font-size: 18px;
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
 
 .habilidades{
   background-color: #FFEFD5;
+  padding: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 .habilidades h1{
-font-size: 35px;
+font-size: 40px;
 font-family: 'Amatic SC', cursive;
+margin-top: 0px;
+margin-bottom: 0px;
 }
+
+.habilidades u{
+  font-size: 20px;
+}
+.habilidades  i{
+  font-size: 18px;
+}
+.habilidades p{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+
 
 /* --------------------------------------------------------------------------------------------------------- */
 
 .atividades{
   background-color: #FFEFD5;
+  padding: 13px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 .atividades h1{
-font-size: 35px;
+font-size: 40px;
 font-family: 'Amatic SC', cursive;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+.atividades u{
+  font-size: 20px;
+}
+.atividades i{
+  font-size: 18px;
+}
+
+.atividades p{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
