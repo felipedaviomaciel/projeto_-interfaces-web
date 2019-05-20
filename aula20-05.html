@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="C:\Users\Aluno\Desktop\projeto_-interfaces-web\bootstrap.css">
+
+    <script src="C:\Users\Aluno\Desktop\projeto_-interfaces-web\js\jquery-3.4.1.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $("#btnEsconder").click(function(){
+      $("p").hide();
+      $("p1").hide();
+    $("#btnMostrar").click(function(){
+        $("p").show();
+        $("p1").show();
+
+        // ------------------------------------------------------
+    $("#btnDadosPessoais").click(function(){
+        $(".Da").hide();
+        $(".Dc").hide();
+        $(".Dp").faderin();
+
+    $("#btnDadosAcademicos").click(function(){
+        $(".Dp").hide();
+        $(".Dc").hide();
+        $(".Da").faderin();
+    $("#btnDadosContato").click(function(){
+        $(".Da").hide();
+        $(".Dp").hide();
+        $(".Dc").faderin();
+
+    });
+    });
+    });
+</script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h2>Introdução ao jQuery</h2>
+
+      <p>today is a great day to save lives</p>
+
+      <p1>By: Derek Shepherd</p1>
+
+      <br>
+      <br>
+      <button type="button" class="btn btn-info" id="btnEsconder">
+        Esconder
+      </button>
+
+      <button type="button" class="btn btn-info" id="btnMostrar">
+        Mostrar
+      </button>
+      </div>
+<!-- ------------------------------------------------------------ -->
+      <hr>
+<div class="contrainer">
+
+
+      <h2>Exemplo com Abas</h2>
+
+      <div class="Dp">
+          <p>Nome: Felipe Davio Maciel <br>
+          Idade: 17 Anos <br>
+          Estado Civíl: Solteiro <br>
+          Data de Nascimento: 13-09-2001</p>
+
+      </div>
+
+      <div class="Da">
+        <p>Cursando: Técnico Informática Integrado ao Ensino Médio <br>
+          Instituição: Instituto Federal do Paraná - Campus Paranavaí <br>
+          Ensino Médio - Cursando <br>
+          Ensino Fundamental - Completo <br>
+        </p>
+      </div>
+
+      <div class="Dc">
+        <p>E-mail: Felipekdds2011@gmail.com <br>
+          Telefone: (44) 9.9965-4912
+        </p>
+      </div>
+
+      <button type="button" class="btn btn-info" id="btnDp">
+        Dados Pessoais
+      </button>
+
+      <button type="button" class="btn btn-info" id="btnDa">
+        Dados Academicos
+      </button>
+
+      <button type="button" class="btn btn-info" id="btnDC">
+        Dados de Contato
+      </button>
+
+</div>
+  </body>
+</html>

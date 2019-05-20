@@ -1,0 +1,32 @@
+body {
+background-color: #DEB887;
+}
+
+.menu{
+background-color: #FFDEAD;
+color: #8B4513;
+text-align: center;
+border-style: dashed;
+}
+
+#rodapePrincipal {
+  text-align: center;
+}
+
+.rodape{
+  background-color: #FFDEAD;
+  color: #8B4513;
+  border-style: dashed;
+}
+
+.conteudo{
+  /* background-color: #FFDEAD; */
+  /* color: #8B4513; */
+  border-style: double;
+  border-color: #8B4513;
+}
+
+*{
+  padding: 3px;
+  margin: 3px;
+}
